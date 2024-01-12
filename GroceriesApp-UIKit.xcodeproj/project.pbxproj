@@ -16,6 +16,7 @@
 		FABBA0292B5119F3006BC90C /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBA0282B5119F3006BC90C /* Color+Extension.swift */; };
 		FABBA02B2B511A7F006BC90C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBA02A2B511A7F006BC90C /* UIView+Extension.swift */; };
 		FABBA02D2B511B1C006BC90C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBA02C2B511B1C006BC90C /* WelcomeViewController.swift */; };
+		FABBA0312B51257B006BC90C /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBA0302B51257B006BC90C /* Labels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FABBA0282B5119F3006BC90C /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		FABBA02A2B511A7F006BC90C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		FABBA02C2B511B1C006BC90C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FABBA0302B51257B006BC90C /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +119,20 @@
 		FABBA0242B511832006BC90C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				FABBA02F2B51256F006BC90C /* Constants */,
 				FABBA0262B51185B006BC90C /* Images.swift */,
 				FABBA0282B5119F3006BC90C /* Color+Extension.swift */,
 				FABBA02A2B511A7F006BC90C /* UIView+Extension.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FABBA02F2B51256F006BC90C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FABBA0302B51257B006BC90C /* Labels.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 			files = (
 				FABBA0232B5117CD006BC90C /* Router.swift in Sources */,
 				FABBA02B2B511A7F006BC90C /* UIView+Extension.swift in Sources */,
+				FABBA0312B51257B006BC90C /* Labels.swift in Sources */,
 				FABBA0292B5119F3006BC90C /* Color+Extension.swift in Sources */,
 				FABBA0272B51185B006BC90C /* Images.swift in Sources */,
 				FABBA0092B511601006BC90C /* AppDelegate.swift in Sources */,
