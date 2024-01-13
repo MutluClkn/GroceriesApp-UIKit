@@ -21,4 +21,9 @@ final class Router {
     private func pop(){
         navigation.popViewController(animated: true)
     }
+    
+    func pushCategoriesViewController(){
+        let controller = CategoriesViewController(router: self)
+        push(controller: controller)
+    }
 }

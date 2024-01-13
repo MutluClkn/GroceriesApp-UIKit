@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA6C61F62B524D8F001032AC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C61F52B524D8F001032AC /* WelcomeView.swift */; };
+		FA6C61F82B524DD7001032AC /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C61F72B524DD7001032AC /* CategoriesViewController.swift */; };
+		FA6C61FA2B5250FE001032AC /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C61F92B5250FE001032AC /* CategoriesView.swift */; };
+		FA6C61FC2B52633B001032AC /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C61FB2B52633B001032AC /* CategoriesViewModel.swift */; };
 		FABBA0092B511601006BC90C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBA0082B511601006BC90C /* AppDelegate.swift */; };
 		FABBA00B2B511601006BC90C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABBA00A2B511601006BC90C /* SceneDelegate.swift */; };
 		FABBA0122B511603006BC90C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABBA0112B511603006BC90C /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA6C61F52B524D8F001032AC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		FA6C61F72B524DD7001032AC /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		FA6C61F92B5250FE001032AC /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		FA6C61FB2B52633B001032AC /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
 		FABBA0052B511601006BC90C /* GroceriesApp-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GroceriesApp-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABBA0082B511601006BC90C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FABBA00A2B511601006BC90C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +89,7 @@
 		FABBA01C2B511685006BC90C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FA6C61FB2B52633B001032AC /* CategoriesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -89,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				FABBA01E2B511693006BC90C /* Controller */,
+				FA6C61F52B524D8F001032AC /* WelcomeView.swift */,
+				FA6C61F92B5250FE001032AC /* CategoriesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				FABBA02C2B511B1C006BC90C /* WelcomeViewController.swift */,
+				FA6C61F72B524DD7001032AC /* CategoriesViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -209,9 +221,13 @@
 				FABBA02B2B511A7F006BC90C /* UIView+Extension.swift in Sources */,
 				FABBA0312B51257B006BC90C /* Labels.swift in Sources */,
 				FABBA0292B5119F3006BC90C /* Color+Extension.swift in Sources */,
+				FA6C61F82B524DD7001032AC /* CategoriesViewController.swift in Sources */,
+				FA6C61F62B524D8F001032AC /* WelcomeView.swift in Sources */,
 				FABBA0272B51185B006BC90C /* Images.swift in Sources */,
 				FABBA0092B511601006BC90C /* AppDelegate.swift in Sources */,
+				FA6C61FA2B5250FE001032AC /* CategoriesView.swift in Sources */,
 				FABBA00B2B511601006BC90C /* SceneDelegate.swift in Sources */,
+				FA6C61FC2B52633B001032AC /* CategoriesViewModel.swift in Sources */,
 				FABBA02D2B511B1C006BC90C /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
